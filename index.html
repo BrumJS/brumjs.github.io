@@ -3,6 +3,7 @@
   <head>
     <title>Brum JS - A User Group for Birmingham's JavaScript developers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
     <style>
     /* Sticky footer styles
@@ -10,7 +11,22 @@
     html,
     body {
       height: 100%;
+      background-color: #f8dc3d;
+      font-family: 'Droid Sans';
       /* The html and body elements cannot have any padding or margin. */
+    }
+
+    h1 {
+      font-family: 'Droid Sans';
+      font-weight: bold;
+    }
+    
+    .brumjs {
+      text-transform: uppercase;
+    }
+    
+    .jumbotron h1 {
+      font-family: 'Helvetica';
     }
 
     /* Wrapper for page content to push down footer */
@@ -23,18 +39,21 @@
       padding: 0 0 60px;
     }
 
+    .jumbotron {
+      background-color: #f8dc3d;
+    }
+
     /* Set the fixed height of the footer here */
     footer {
       height: 60px;
       line-height: 60px;
-      background-color: #f5f5f5;
     }
     </style>
   </head>
   <body>
     <div id="wrap" class="container">
-      <header class="page-header">
-        <h1>Brum JS <small>A User Group for Birmingham's JavaScript developers</small></h1>
+      <header>
+        <h1><span class="brumjs">Brum.js</span> <small>A User Group for Birmingham's JavaScript developers</small></h1>
       </header>
       <article>
         <section class="jumbotron">
